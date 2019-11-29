@@ -23,7 +23,8 @@ let createTask = event => {
   event.target.reset();
 };
 
-const appendNewTask = task => {
+
+ const appendNewTask = task => {
   document.getElementById("tasks").appendChild(task);
 };
 
